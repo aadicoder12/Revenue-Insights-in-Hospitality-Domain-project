@@ -23,59 +23,35 @@ Data Details
 - Sample data used to simulate real business challenges and opportunities
 - web csv files 
 ### 5.	Features / Highlights
-The best dashboard explanation format. 
-•	Business problem
-•	Goal of the dashboard
-•	Walk through of key visuals (briefly!)
-•	Business impact & Insights
 
-Example:
 •	Business Problem
-The global ski tourism industry generates billions in revenue, yet travelers, tour operators, and analysts often lack an intuitive way to compare resorts across countries. 
-
-Key questions such as:
-Which regions offer the most family-friendly or expert-level skiing?
-Where is summer skiing available?
-What countries have the most well-equipped resorts?
-… are difficult to answer quickly with raw data.
+Taj Hotels, a leader in luxury hospitality, is facing challenges in optimizing revenue performance and market competitiveness. With rising competition, dynamic pricing fluctuations, and evolving customer preferences, the hotel chain requires data-driven insights to enhance occupancy, pricing strategies, and revenue growth across properties.
 
 •	Goal of the Dashboard
-To deliver an interactive visual tool that:
-Enables users to explore ski resorts globally.
-Supports decisions such as vacation planning, regional marketing, or infrastructure investment.
-Uncovers trends in terrain, accessibility, and tourism capacity by region and resort.
+The Taj Hotels Revenue Insights Dashboard is designed to provide data-driven decision-making for revenue optimization. The primary goals are:
+- Monitor Revenue Performance: Track total revenue, RevPAR, ADR, and Occupancy % to analyze trends across properties.
+- Improve Pricing Strategies: Use Realization % and ADR trends to refine pricing decisions and maximize profitability.
+- Enhance Market Competitiveness: Evaluate DSRN (Dynamic Sales & Revenue Normalization) and Market Penetration Metrics to stay ahead of competitors.
+- Identify Revenue Growth Opportunities: Break down % Revenue by Category to pinpoint areas for expansion.
+- Track Seasonal and Trend-Based Insights: Analyze RevPAR, ADR, and Occupancy % trends over time to optimize bookings and resource allocation.
 
 •	Walkthrough of Key Visuals
--	Key KPIs (Top Left)
-Total number of resorts: 499
-Resorts with summer skiing: 29
-Resorts with night skiing: 204
-Child-friendly resorts: 495
-Countries covered: 38
-Continents represented: 5
--	Continent Filter Panel
-An interactive slicer lets users filter all visuals by selected continents, such as Europe or Asia.
--	Top Countries with Most Resorts (Bar Chart)
-Bar chart ranks countries like Austria, France, and the U.S. by number of ski resorts.
--	Slopes by Resort (Line Chart)
-Displays the distribution of slope types (beginner, intermediate, expert, and total). Helps identify which resorts favor beginners vs. experts.
--	 Resorts by Skill Level (Dual Line Charts)
-Two line visuals side by side: one for resorts that cater to beginners, another for experts—allowing skill-level segmentation.
--	Elevation Stats (Grouped Bar Chart)
-Compare the highest and lowest elevation points of resorts to understand terrain steepness and potential snow quality.
--	Lift Types by Resort (Stacked Bar Chart)
-Stacked bar chart showing:
-Gondola lifts
-Chair lifts
-Surface lifts
-Total lifts
-This helps users gauge resort infrastructure and capacity.
+✔ Total Revenue Overview – Provides a snapshot of overall revenue performance across Taj Hotels properties.
+✔ RevPAR (Revenue per Available Room) – Tracks the revenue generated per available room, a critical metric for hotel profitability.
+✔ DSRN (Dynamic Sales & Revenue Normalization) – Analyzes revenue fluctuations and sales performance trends.
+✔ Occupancy % – Measures the percentage of occupied rooms, helping optimize hotel capacity utilization.
+✔ ADR (Average Daily Rate) – Calculates the average price paid per occupied room, crucial for pricing strategies.
+✔ Realization % – Reflects the percentage of revenue successfully realized compared to projections.
+✔ % Revenue by Category – Breaks down revenue streams across different service categories (rooms, F&B, events, etc.).
+✔ Trend Analysis for Key Metrics – Visualizes time-based trends for RevPAR, ADR, and Occupancy %, highlighting seasonal demand shifts and revenue patterns.
 
 •	Business Impact & Insights
-Marketing Optimization: Travel agencies can use this dashboard to identify key selling points for different demographics (e.g., child-friendly resorts or expert terrain).
-Strategic Expansion: Resort developers can spot underdeveloped regions with high potential.
-Vacation Planning: Tourists can plan trips based on slope availability, elevation, and terrain difficulty.
-Regional Analysis: Governments and tourism bodies can analyze competitiveness by region.
+Business Impact & Insights
+⚡ Optimized Revenue Management – Taj Hotels can fine-tune pricing strategies and room allocation using insights from RevPAR, ADR, and Realization %, leading to improved profitability.
+⚡ Enhanced Market Positioning – DSRN (Dynamic Sales & Revenue Normalization) and Occupancy % metrics provide a competitive edge by identifying industry trends and market gaps.
+⚡ Maximized Operational Efficiency – By tracking % Revenue by Category, management can allocate resources effectively across different revenue streams, such as rooms, F&B, and events.
+⚡ Strategic Decision-Making – The dashboard delivers actionable insights, allowing executives to make data-driven decisions that enhance guest experience, occupancy, and revenue growth.
+⚡ Predictive Insights for Future Growth – Trend analysis across RevPAR, ADR, and Occupancy % helps forecast seasonal demand fluctuations, enabling better planning and revenue optimization.
 
-### 6.	Screenshots / Demos
-Show what the dashboard looks like. - ![Alt text](https://github.com/username/repo/assets/image.png)
+### 6.	Screenshot
+Show what the dashboard looks like -https://github.com/aadicoder12/Revenue-Insights-in-Hospitality-Domain-project/blob/main/snapshot%20of%20dashboard.png
