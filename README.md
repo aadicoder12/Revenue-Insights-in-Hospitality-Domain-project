@@ -1,27 +1,81 @@
-# Revenue-Insights-in-Hospitality-Domain-project
-Taj hotels – Business & Data Intelligence Dashboard
-Overview
-Taj hotels, a seven-star hotel chain in India, is facing a decline in market share and revenue. To combat this, the Revenue Management Team has decided to leverage Business and Data Intelligence for strategic decision-making. Since they lack an in-house data analytics team, they have engaged a third-party service provider to extract insights from historical data.
-Project Objectives
-- Construct business and revenue performance metrics as defined by stakeholders
-- Develop a Power BI dashboard modeled on stakeholder mock-up
-- Reveal strategic insights beyond predefined KPIs for competitive advantag
-Technologies Used
-- Power BI – for data visualization
-- Star Schema – for modeling a scalable and efficient data warehouse structure
-- DAX – for writing custom measures and KPIs
+# Revenue Insights in Hospitality Domain project
+## Recommended Structure and Order
+### 1.Taj hotels – Business & Data Intelligence / Dashboard 
+- Smart Hospitality Monitor Dashboard
+A dynamic, interactive data visualization tool built to explore Taj hotels data worldwide—focusing on regional comparisons, resort attributes, terrain complexity, and skier suitability.
+
+### 2.	Short Description / Purpose
+The Taj Hotels Revenue Insights Dashboard is a powerful Power BI solution designed to analyze and optimize revenue performance across luxury hotel properties. Using a structured star schema model, this dashboard provides key metrics on occupancy trends, market competitiveness, and revenue growth opportunities, helping decision-makers refine pricing strategies and maximize profitability
+
+### 3.	Tech Stack
+
+The dashboard was built using the following tools and technologies:<br>
+•	📊 Power BI Desktop – Main data visualization platform used for report creation.<br>
+•	📂 Power Query – Data transformation and cleaning layer for reshaping and preparing the data.<br>
+•	🧠 DAX (Data Analysis Expressions) – Used for calculated measures, dynamic visuals, and conditional logic.<br>
+•	📝 Data Modeling – Relationships established among tables (resorts, snow, and data_dictionary) to enable cross-filtering and aggregation.<br>
+•	📁 File Format – .pbix for development and .png for dashboard previews.
+
+### 4.	Data Source
+
 Data Details
-- 3 months of historical data from various departments including revenue, occupancy, and customer trends
+- 3 months of historical data  including date, hotels,rooms and bookings.
 - Sample data used to simulate real business challenges and opportunities
-Deliverables
-✔ Metrics Calculation – Implement key revenue metrics according to the metric list.
-✔ Dashboard Development – Design a Power BI/Tableau dashboard per stakeholder mock-up.
-✔ Data Insights – Extract additional insights to uncover hidden opportunities for revenue growth.
-Future Improvements
-- Connect to live databases for real-time updates
-- Introduce forecasting using Power BI’s AI visuals
-- Embed the dashboard in AtliQ Grands' internal portal
-Screenshot link
-https://github.com/aadicoder12/Revenue-Insights-in-Hospitality-Domain-project/blob/main/snapshot%20of%20dashboard.png
-Contributors
-- Aditya – Data Analyst & Dashboard Developer
+- web csv files 
+### 5.	Features / Highlights
+The best dashboard explanation format. 
+•	Business problem
+•	Goal of the dashboard
+•	Walk through of key visuals (briefly!)
+•	Business impact & Insights
+
+Example:
+•	Business Problem
+The global ski tourism industry generates billions in revenue, yet travelers, tour operators, and analysts often lack an intuitive way to compare resorts across countries. 
+
+Key questions such as:
+Which regions offer the most family-friendly or expert-level skiing?
+Where is summer skiing available?
+What countries have the most well-equipped resorts?
+… are difficult to answer quickly with raw data.
+
+•	Goal of the Dashboard
+To deliver an interactive visual tool that:
+Enables users to explore ski resorts globally.
+Supports decisions such as vacation planning, regional marketing, or infrastructure investment.
+Uncovers trends in terrain, accessibility, and tourism capacity by region and resort.
+
+•	Walkthrough of Key Visuals
+-	Key KPIs (Top Left)
+Total number of resorts: 499
+Resorts with summer skiing: 29
+Resorts with night skiing: 204
+Child-friendly resorts: 495
+Countries covered: 38
+Continents represented: 5
+-	Continent Filter Panel
+An interactive slicer lets users filter all visuals by selected continents, such as Europe or Asia.
+-	Top Countries with Most Resorts (Bar Chart)
+Bar chart ranks countries like Austria, France, and the U.S. by number of ski resorts.
+-	Slopes by Resort (Line Chart)
+Displays the distribution of slope types (beginner, intermediate, expert, and total). Helps identify which resorts favor beginners vs. experts.
+-	 Resorts by Skill Level (Dual Line Charts)
+Two line visuals side by side: one for resorts that cater to beginners, another for experts—allowing skill-level segmentation.
+-	Elevation Stats (Grouped Bar Chart)
+Compare the highest and lowest elevation points of resorts to understand terrain steepness and potential snow quality.
+-	Lift Types by Resort (Stacked Bar Chart)
+Stacked bar chart showing:
+Gondola lifts
+Chair lifts
+Surface lifts
+Total lifts
+This helps users gauge resort infrastructure and capacity.
+
+•	Business Impact & Insights
+Marketing Optimization: Travel agencies can use this dashboard to identify key selling points for different demographics (e.g., child-friendly resorts or expert terrain).
+Strategic Expansion: Resort developers can spot underdeveloped regions with high potential.
+Vacation Planning: Tourists can plan trips based on slope availability, elevation, and terrain difficulty.
+Regional Analysis: Governments and tourism bodies can analyze competitiveness by region.
+
+### 6.	Screenshots / Demos
+Show what the dashboard looks like. - ![Alt text](https://github.com/username/repo/assets/image.png)
