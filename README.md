@@ -21,7 +21,7 @@ Future Improvements
 - Connect to live databases for real-time updates
 - Introduce forecasting using Power BI’s AI visuals
 - Embed the dashboard in AtliQ Grands' internal portal
-Screenshot
-
+Screenshot link
+https://github.com/aadicoder12/Revenue-Insights-in-Hospitality-Domain-project/blob/main/snapshot%20of%20dashboard.png
 Contributors
 - Aditya – Data Analyst & Dashboard Developer
